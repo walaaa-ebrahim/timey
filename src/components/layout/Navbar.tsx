@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2 text-blue-600 font-bold text-xl">
             <GlobeAltIcon className="w-7 h-7" />
-            <span>TimeZone Finder</span>
+            <span>Timezone Finder</span>
           </Link>
           <div className="flex gap-1">
             {navLinks.map((link) => (
